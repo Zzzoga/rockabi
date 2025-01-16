@@ -538,6 +538,7 @@ a.btn.tracker__btn:hover {
 header.fixed a.logo,
 header.non__transperent a.logo {
     background: url(../img/logo_dark.svg) no-repeat center;
+    background-size: 100%;
 }
 
 header.non__transperent nav.menu ul li a,
