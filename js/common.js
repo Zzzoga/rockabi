@@ -221,6 +221,18 @@ document.addEventListener('DOMContentLoaded', () => {
 			})
 		})
 	}
+
+	if (document.querySelector('.catalog__filter') != null) {
+		document.querySelector('.catalog__filter__wrapper__btn').addEventListener('click', e => {
+			e.preventDefault()
+			if (!document.querySelector('.catalog__filter').classList.contains('active')) {
+				document.querySelector('.catalog__filter').classList.add('active')
+			} else {
+				document.querySelector('.catalog__filter').classList.remove('active')
+			}
+		})
+	}
+	
 	
 
 	// SHOW/HIDE MODAL
